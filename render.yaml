@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: yenkonsult-bot
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    name: yenconsult_bot
+    env: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    autoDeploy: true
